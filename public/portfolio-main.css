@@ -1,4 +1,5 @@
 body{
+  background-color: lightgrey;
   background-image: url(images/santa_clara.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -7,15 +8,16 @@ body{
 div.one{
   width: 100%;
   height: 50em;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   color: lightgrey;
   text-align: center;
 }
 div.intro{
   position: relative;
-  top: 35%;
-  background-color: red;
-  opacity: 0.45;
+  top: 25em;
+  width: 100%;
+  height: 5em;
+  background-color: rgba(255, 0, 0, 0.45)
 }
 #name{
   font-size: 36px;
@@ -31,11 +33,6 @@ div.projects{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-boty{
-  font-family: Trebuchet MS;
-  color: lightgrey;
-  margin: 0;
 }
 header{
   font-size: large;
