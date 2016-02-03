@@ -4,6 +4,8 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  margin: 0em;
+  padding: 0em;
 }
 div.one{
   width: 100%;
@@ -34,43 +36,32 @@ div.projects{
   flex-direction: row;
   justify-content: space-around;
 }
-header{
-  font-size: large;
-  text-align: center;
-  width: 100%;
-  background: blue;
-  border-bottom: 2px solid lightgrey;
+div.projects img{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 2px solid black;
 }
-div#main{
+div.three{
+  height: 15em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-section{
-  order: 1;
-  flex-grow: 3;
-  background: grey;
-  border-left: 2px solid lightgrey;
-  border-right: 2px solid lightgrey;
-  padding-bottom: 100%;
-}
-nav{
-  order: 0;
+div.profile{
   flex-grow: 1;
-  background: green;
+  background-color: none;
 }
-aside{
-  order: 2;
+div.profile img{
+  position: relative;
+  left: 25%;
+  border-radius: 25px;
+  height: 20%;
+  width: 20%;
+}
+div.contact{
+  position: relative;
+  right: 25%
   flex-grow: 1;
-  background: red;
-}
-footer{
-  clear: both;
-  font-size: large;
-  text-align: center;
-  background: blue;
-  border-top: 2px solid lightgrey;
-  position: fixed;
-  width: 100%;
-  bottom: 0em;
+  background-color: none;
 }
