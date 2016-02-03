@@ -1,5 +1,5 @@
 body{
-  background-color: lightgrey;
+  background-color: indianred;
   background-image: url(images/santa_clara.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -40,28 +40,19 @@ div.projects img{
   height: 250px;
   width: 250px;
   border-radius: 100%;
-  border: 2px solid black;
+  border: 2px solid grey;
 }
 div.three{
   height: 15em;
+}
+div.contact{
+  background-color: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-div.profile{
-  flex-grow: 1;
-  background-color: none;
-}
-div.profile img{
-  position: relative;
-  left: 25%;
+div.contact img{
   border-radius: 25px;
   height: 20%;
   width: 20%;
-}
-div.contact{
-  position: relative;
-  right: 25%
-  flex-grow: 1;
-  background-color: none;
 }
