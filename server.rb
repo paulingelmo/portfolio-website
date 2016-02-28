@@ -1,4 +1,4 @@
 require 'sinatra'
 get '/' do
-  html :'portfolio-main'
+  erb :'portfolio-main'
 end
