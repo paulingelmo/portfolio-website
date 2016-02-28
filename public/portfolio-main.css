@@ -1,17 +1,31 @@
 body{
-  background-color: indianred;
+  background-color: whitesmoke;
   background-image: url(images/santa_clara.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   margin: 0em;
   padding: 0em;
+  font-family: 'Raleway', sans-serif;
+}
+div.header{
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  height: 2em;
+  background-color: rgba(245, 245, 245, 0.95);
+}
+div.header a{
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(220, 20, 60, 0.75);
+  font-size: 30px;
 }
 div.one{
   width: 100%;
   height: 50em;
-  font-family: 'Raleway', sans-serif;
-  color: lightgrey;
+  color: whitesmoke;
   text-align: center;
 }
 div.intro{
@@ -27,18 +41,30 @@ div.intro{
 #epithet{
   font-size: 18px;
 }
-div.two{
+div.footer{
+  position: fixed;
+  bottom: 0em;
   width: 100%;
-  height: 30em;
+  height: 2em;
+  background-color: rgba(245, 245, 245, 0.95);
+  }
+div.blanket{
+  height: 50em;
+  width: 100%;
+  background-color: lightgrey;
+}
+div.two{
+  padding-top: 5em;
+  width: 100%;
+  height: 20em;
 }
 div.projects{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 div.projects img{
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   border-radius: 100%;
   border: 2px solid grey;
 }
@@ -50,9 +76,16 @@ div.contact{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: whitesmoke;
+  font-size: 30px;
+}
+div.contact a{
+  color: whitesmoke;
+  font-size: 75px;
 }
 div.contact img{
+  display: block;
   border-radius: 25px;
-  height: 20%;
-  width: 20%;
+  height: 18%;
+  width: 18%;
 }
